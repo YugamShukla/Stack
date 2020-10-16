@@ -5,5 +5,5 @@ Rules for same precedence of prefix expressions:-
  ----------------------------------------------------------------------------------------------------------------------------------------
  Rules for same precedence of postfix expressions:-
  
-    1) If associativity is left to right then pop and check until top is less than character
+    1) If associativity is left to right then pop and check until top is less than character then push the character in the stack
     2) If associativity is right to left then simply push the char into the stack
