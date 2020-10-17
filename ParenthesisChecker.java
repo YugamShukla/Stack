@@ -12,8 +12,9 @@ public class ParenthesesChecker {
      }
      public static String checkBalancedParentesis(String expr)
      {
-     if (expr.isEmpty())
-     return "Balanced";
+     if (expr.isEmpty()){
+          return "Balanced";
+     }
      
      Stack<Character> stack = new Stack<Character>();
      for (int i = 0; i < expr.length(); i++){
